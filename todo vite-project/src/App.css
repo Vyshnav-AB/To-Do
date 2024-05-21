@@ -1,0 +1,61 @@
+body{
+  background-color: aqua;
+}
+h1{
+  text-align: center;
+  font-family:cursive;
+}
+.inp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inp > input{
+  width: 400px;
+  height: 40px;
+}
+.inp > button{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-top: 10px;
+  background-color:yellow;
+}
+
+.todo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+ 
+}
+
+.action{
+  width: 600px;
+  height: 75px;
+  display: flex;
+  background-color: antiquewhite;
+  justify-content: space-between;
+  border-radius: 20px;
+  align-items: center;
+
+}
+.action > p{
+  font-size: 25pt;
+  margin-left: 50px;
+}
+
+.action > input{
+  margin-left: auto;
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+.action > button{
+  background-color: red;
+  width: 80px;
+  height: 40px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
